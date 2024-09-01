@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: inter;
+    background-color: #e1ebed;
+    justify-content: center;
+}
+
+/* Container styling */
+.container {
+    height: 100%;
+    width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f1f1;
+    border-radius: 10px;
+}
+
+/* Headings and text styling */
+h1 {
+    padding-bottom: 30px;
+    color: #007bff;
+    margin: 10px;
+}
+
+.username {
+    font-size: xx-large;
+    color: #007bff;
+    margin: 10px;
+}
+
+h3 {
+    color: #007bff;
+    margin: 10px;
+}
+
+.email {
+    color: #007bff;
+    margin: 10px;
+}
+
+.bio {
+    margin: 10px;
+}
+
+/* Form and image styling */
+form {
+    padding: 10px;
+}
+
+.photo {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile_pic {
+    height: 250px;
+    width: 250px;
+    border-radius: 150px;
+    background-color: transparent;
+}
+
+.non-nav-icon {
+    border: none;
+    cursor: pointer;
+}
+
+.non-nav-icon-img {
+    height: 25px;
+    width: 25px;
+    border-radius: 20px;
+}
+
+/* List styling */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    text-align: left;
+    color: #2b2e4a;
+    padding-top: 20px;
+}
+
+.view-post {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.view-post b {
+    padding: 10px;
+}
+
+/* Responsive design */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+}

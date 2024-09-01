@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: inter;
+    background-color: #f2f2f2;
+    background: url(../students_background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #007bff;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    font-size: small;
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-family: inter;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.pass {
+    width: 340px;
+    float: left;
+}
+
+#passwordToggle {
+    margin-left: 10px;
+    cursor: pointer;
+    margin-bottom: 40px;
+    height: 35px;
+    border: none;
+    color: #007bff;
+    background-color: transparent;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.checkbox-container input[type="checkbox"] {
+    margin: 10px;
+}
+
+input[type="submit"],
+.btn {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.create {
+    text-align: center;
+    margin: 30px;
+}
+
+@media screen and (max-width: 758px) {
+    .container {
+        margin: 20px;
+    }
+
+    .pass {
+        width: calc(100% - 50px);
+    }
+
+    #passwordToggle {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

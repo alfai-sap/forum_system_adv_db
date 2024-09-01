@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: inter;
+    background: url(../students_background.png);
+    background-size: cover;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.container {
+    max-width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    color: #007bff;
+    font-size: 30px;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    margin: 20px auto;
+    display: block;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.create {
+    text-align: center;
+    margin: 10px;
+}
+
+.create a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+@media screen and (max-width: 758px) {
+    .container {
+        margin: 20px;
+    }
+    body {
+        justify-content: left;
+    }
+}

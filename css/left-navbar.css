@@ -1,0 +1,65 @@
+/*left navbar*/
+
+.left-navbar{
+
+    height: 100%;
+    position: fixed;
+    z-index: 999;
+    width: 400px;
+    background-color: #f0f1f1; 
+}
+
+
+.left-nav{
+    display: flex;
+    padding: 10px;
+}
+
+.left-nav:hover{
+    background-color: #e1ebed;
+}
+
+.left-nav p{
+    text-decoration: none;
+    align-self: center;
+    margin: 5px;
+    padding: 10px;
+    color: #0056b3;
+}
+
+.left-navbar li a{
+    text-decoration: none;
+}
+
+.username-nav{
+    padding: 20px;
+    text-shadow: 0px 0px 5px #007bff;
+    text-align: center;
+
+    
+
+    b{
+        color: #007bff;
+    }
+}
+
+.login_user_pic{
+    
+    
+    height: 40px;
+    width: 40px;
+    padding: 10px;
+    border-radius:30px ;    
+}
+
+.icons{
+    padding: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+
+/*universal*/
+
+
+
